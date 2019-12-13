@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7929FD6A144E629717D9FB45 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C04C0C0127029F843DB1BC /* libPods-Demo.a */; };
+		A32ACFB123A393BC00427731 /* MLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32ACFB023A393BC00427731 /* MLabelViewController.m */; };
 		A32EA7ED223F8AEA006CF809 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32EA7EB223F8AEA006CF809 /* ButtonViewController.m */; };
 		A32EA7EE223F8AEA006CF809 /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A32EA7EC223F8AEA006CF809 /* ButtonViewController.xib */; };
 		A32EA7F3223F90B3006CF809 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32EA7F2223F90B3006CF809 /* TableViewController.m */; };
@@ -90,6 +91,7 @@
 		A3CEB89B21E88E49003BD24E /* 个人中心-性别女图标-默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CEB89721E88E49003BD24E /* 个人中心-性别女图标-默认@2x.png */; };
 		A3CEB89C21E88E49003BD24E /* 个人中心-性别女图标-默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CEB89821E88E49003BD24E /* 个人中心-性别女图标-默认@3x.png */; };
 		A3CEB89D21E88E49003BD24E /* 个人中心-性别男图标-默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CEB89921E88E49003BD24E /* 个人中心-性别男图标-默认@3x.png */; };
+		A3DAAB2523A38FAC002666F3 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DAAB2423A38FAC002666F3 /* LabelViewController.m */; };
 		A3DB5601222661300018764F /* EmojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DB55FF222661300018764F /* EmojiViewController.m */; };
 		A3DB5602222661300018764F /* EmojiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DB5600222661300018764F /* EmojiViewController.xib */; };
 		A3DB56E4222689710018764F /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DB56E2222689710018764F /* SegmentViewController.m */; };
@@ -131,6 +133,8 @@
 /* Begin PBXFileReference section */
 		0CD7331932D4070B1AD120DA /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		8A3EAC8FD5F031151D6A5503 /* libPods-DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32ACFAF23A393BC00427731 /* MLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLabelViewController.h; sourceTree = "<group>"; };
+		A32ACFB023A393BC00427731 /* MLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLabelViewController.m; sourceTree = "<group>"; };
 		A32EA7EA223F8AEA006CF809 /* ButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
 		A32EA7EB223F8AEA006CF809 /* ButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
 		A32EA7EC223F8AEA006CF809 /* ButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
@@ -272,6 +276,8 @@
 		A3CEB89721E88E49003BD24E /* 个人中心-性别女图标-默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心-性别女图标-默认@2x.png"; sourceTree = "<group>"; };
 		A3CEB89821E88E49003BD24E /* 个人中心-性别女图标-默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心-性别女图标-默认@3x.png"; sourceTree = "<group>"; };
 		A3CEB89921E88E49003BD24E /* 个人中心-性别男图标-默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心-性别男图标-默认@3x.png"; sourceTree = "<group>"; };
+		A3DAAB2323A38FAC002666F3 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		A3DAAB2423A38FAC002666F3 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
 		A3DB55FE222661300018764F /* EmojiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmojiViewController.h; sourceTree = "<group>"; };
 		A3DB55FF222661300018764F /* EmojiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmojiViewController.m; sourceTree = "<group>"; };
 		A3DB5600222661300018764F /* EmojiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmojiViewController.xib; sourceTree = "<group>"; };
@@ -339,6 +345,15 @@
 				E4C8B445CF15B1707D0E60E6 /* Pods-Demo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A32ACFAE23A3938C00427731 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				A32ACFAF23A393BC00427731 /* MLabelViewController.h */,
+				A32ACFB023A393BC00427731 /* MLabelViewController.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 		A32EA7EF223F8B01006CF809 /* 按钮 */ = {
@@ -519,6 +534,9 @@
 		A38546CD21F01BC400FD9376 /* 文本 */ = {
 			isa = PBXGroup;
 			children = (
+				A32ACFAE23A3938C00427731 /* Masonry */,
+				A3DAAB2323A38FAC002666F3 /* LabelViewController.h */,
+				A3DAAB2423A38FAC002666F3 /* LabelViewController.m */,
 				A38546CE21F01D8500FD9376 /* TextViewController.h */,
 				A38546CF21F01D8500FD9376 /* TextViewController.m */,
 				A38546D021F01D8500FD9376 /* TextViewController.xib */,
@@ -897,7 +915,6 @@
 				A38DB27E21E5D1CF00828CB4 /* Sources */,
 				A38DB27F21E5D1CF00828CB4 /* Frameworks */,
 				A38DB28021E5D1CF00828CB4 /* Resources */,
-				44DB840C253EB4ED0DC1F46E /* [CP] Embed Pods Frameworks */,
 				13BC39AA9D794FB707B49CAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1071,7 +1088,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required/ShareSDK.bundle",
 			);
@@ -1082,22 +1099,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		44DB840C253EB4ED0DC1F46E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A5823088E489C03A9078BB7E /* [CP] Check Pods Manifest.lock */ = {
@@ -1127,6 +1129,7 @@
 			files = (
 				A3EFF17F222A56CE0061B565 /* DropDownViewController.m in Sources */,
 				A3EDACA921F8390A00490381 /* LayerViewController.m in Sources */,
+				A32ACFB123A393BC00427731 /* MLabelViewController.m in Sources */,
 				A3BA619D223CE0810026372D /* WithdrawViewController.m in Sources */,
 				A3B218EB2231405100442DBE /* VideoViewController.m in Sources */,
 				A36A479E21FC78F2006337A1 /* MyBorderline.m in Sources */,
@@ -1176,6 +1179,7 @@
 				A36A479921FC78F2006337A1 /* MyLayoutDelegate.m in Sources */,
 				A36A479821FC78F2006337A1 /* MyFloatLayout.m in Sources */,
 				A38DB28721E5D1CF00828CB4 /* AppDelegate.m in Sources */,
+				A3DAAB2523A38FAC002666F3 /* LabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1345,16 +1349,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = UXF7ST26DT;
+				DEVELOPMENT_TEAM = DXK4LW8W8H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/wangminxin/Desktop/iOSProjects/Demo/Demo/Demo.pch;
+				GCC_PREFIX_HEADER = "/Users/wangminxin/Desktop/iOSProjects/临时/iOSDemo/Demo/Demo.pch";
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ybdsp.video;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomtv.phonelive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "612f58d7-2954-4283-8909-d4e416297dd4";
-				PROVISIONING_PROFILE_SPECIFIER = video;
+				PROVISIONING_PROFILE_SPECIFIER = zoomtv;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1365,16 +1369,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = UXF7ST26DT;
+				DEVELOPMENT_TEAM = DXK4LW8W8H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/wangminxin/Desktop/iOSProjects/Demo/Demo/Demo.pch;
+				GCC_PREFIX_HEADER = "/Users/wangminxin/Desktop/iOSProjects/临时/iOSDemo/Demo/Demo.pch";
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ybdsp.video;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomtv.phonelive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "612f58d7-2954-4283-8909-d4e416297dd4";
-				PROVISIONING_PROFILE_SPECIFIER = video;
+				PROVISIONING_PROFILE_SPECIFIER = zoomtv;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

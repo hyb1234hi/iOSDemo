@@ -46,7 +46,6 @@ PODS:
     - TLKit/TLCategories/Foundation/NSData (= 0.0.3)
     - TLKit/TLCategories/Foundation/NSDate (= 0.0.3)
     - TLKit/TLCategories/Foundation/NSDictionary (= 0.0.3)
-    - TLKit/TLCategories/Foundation/NSDictionary (= 0.0.3)
     - TLKit/TLCategories/Foundation/NSFileManager (= 0.0.3)
     - TLKit/TLCategories/Foundation/NSMutableArray (= 0.0.3)
     - TLKit/TLCategories/Foundation/NSMutableDictionary (= 0.0.3)
@@ -108,7 +107,7 @@ PODS:
     - TLKit/TLCategories/UIKit/UIView
   - TLKit/TLCategories/UIKit/UIWindow (0.0.3)
   - TLKit/TLShortcut (0.0.3)
-  - XLPhotoBrowser+CoderXL (1.2.0):
+  - "XLPhotoBrowser+CoderXL (1.2.0)":
     - SDWebImage (~> 4.0.0)
   - YTKNetwork (2.0.4):
     - AFNetworking (~> 3.0)
@@ -123,9 +122,23 @@ DEPENDENCIES:
   - mob_sharesdk/ShareSDKPlatforms/QQ
   - mob_sharesdk/ShareSDKPlatforms/WeChat
   - TLKit
-  - XLPhotoBrowser+CoderXL
+  - "XLPhotoBrowser+CoderXL"
   - YTKNetwork
   - ZZFLEX (from `https://github.com/tbl00c/ZZFLEX.git`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FBRetainCycleDetector
+    - Masonry
+    - MJRefresh
+    - MLeaksFinder
+    - mob_sharesdk
+    - MOBFoundation
+    - SDWebImage
+    - TLKit
+    - "XLPhotoBrowser+CoderXL"
+    - YTKNetwork
 
 EXTERNAL SOURCES:
   ZZFLEX:
@@ -146,10 +159,10 @@ SPEC CHECKSUMS:
   MOBFoundation: ce2ba976fd435b0cb06897466b2746e639895b7d
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   TLKit: 85bbd71d96639db7f1ca91ca87d06f1a476bd85e
-  XLPhotoBrowser+CoderXL: 2bf4036e2af4611b24bde1681e24c64ed01fbe98
+  "XLPhotoBrowser+CoderXL": 2bf4036e2af4611b24bde1681e24c64ed01fbe98
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
   ZZFLEX: a898c30b70f7f8408128061d75865c010350dd1e
 
 PODFILE CHECKSUM: 9a7ae1edb5d597ce7e3473215533ef12c6a571f6
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.8.4

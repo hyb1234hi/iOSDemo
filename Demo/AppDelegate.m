@@ -19,10 +19,11 @@
 #import "DropDownViewController.h"
 #import "DialogViewController.h"
 
+#import "LabelViewController.h"
+#import "MLabelViewController.h"
+
 #import "VideoViewController.h"
-
 #import "WithdrawViewController.h"
-
 #import "ActivityViewController.h"
 
 @interface AppDelegate ()
@@ -36,7 +37,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    ActivityViewController *viewController = [[ActivityViewController alloc] init];
+    MLabelViewController *viewController = [[MLabelViewController alloc] init];
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     
