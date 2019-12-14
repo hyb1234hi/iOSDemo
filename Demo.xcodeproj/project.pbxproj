@@ -80,6 +80,8 @@
 		A3878B8723A4C3E600AEF988 /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = A3878B8523A4C3E600AEF988 /* 视频.png */; };
 		A3878B8823A4C3E600AEF988 /* 直播.png in Resources */ = {isa = PBXBuildFile; fileRef = A3878B8623A4C3E600AEF988 /* 直播.png */; };
 		A3878B8B23A4C44600AEF988 /* VerticalButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3878B8A23A4C44600AEF988 /* VerticalButtonController.m */; };
+		A3878B8F23A4D12500AEF988 /* LabelAutoSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3878B8E23A4D12500AEF988 /* LabelAutoSizeViewController.m */; };
+		A3878B9223A4D49E00AEF988 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3878B9123A4D49E00AEF988 /* MyLabel.m */; };
 		A38DB28721E5D1CF00828CB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A38DB28621E5D1CF00828CB4 /* AppDelegate.m */; };
 		A38DB28F21E5D1CF00828CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38DB28E21E5D1CF00828CB4 /* Assets.xcassets */; };
 		A38DB29221E5D1CF00828CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38DB29021E5D1CF00828CB4 /* LaunchScreen.storyboard */; };
@@ -260,6 +262,10 @@
 		A3878B8623A4C3E600AEF988 /* 直播.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "直播.png"; sourceTree = "<group>"; };
 		A3878B8923A4C44600AEF988 /* VerticalButtonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalButtonController.h; sourceTree = "<group>"; };
 		A3878B8A23A4C44600AEF988 /* VerticalButtonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalButtonController.m; sourceTree = "<group>"; };
+		A3878B8D23A4D12500AEF988 /* LabelAutoSizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelAutoSizeViewController.h; sourceTree = "<group>"; };
+		A3878B8E23A4D12500AEF988 /* LabelAutoSizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelAutoSizeViewController.m; sourceTree = "<group>"; };
+		A3878B9023A4D49E00AEF988 /* MyLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		A3878B9123A4D49E00AEF988 /* MyLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 		A38DB28221E5D1CF00828CB4 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38DB28521E5D1CF00828CB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A38DB28621E5D1CF00828CB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -545,6 +551,7 @@
 		A38546CD21F01BC400FD9376 /* 文本 */ = {
 			isa = PBXGroup;
 			children = (
+				A3878B8C23A4D10500AEF988 /* 高宽自适应 */,
 				A32ACFAE23A3938C00427731 /* Masonry */,
 				A3DAAB2323A38FAC002666F3 /* LabelViewController.h */,
 				A3DAAB2423A38FAC002666F3 /* LabelViewController.m */,
@@ -711,6 +718,17 @@
 				A3878B8623A4C3E600AEF988 /* 直播.png */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		A3878B8C23A4D10500AEF988 /* 高宽自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				A3878B8D23A4D12500AEF988 /* LabelAutoSizeViewController.h */,
+				A3878B8E23A4D12500AEF988 /* LabelAutoSizeViewController.m */,
+				A3878B9023A4D49E00AEF988 /* MyLabel.h */,
+				A3878B9123A4D49E00AEF988 /* MyLabel.m */,
+			);
+			path = "高宽自适应";
 			sourceTree = "<group>";
 		};
 		A38DB27921E5D1CF00828CB4 = {
@@ -1191,11 +1209,13 @@
 				A36A479B21FC78F2006337A1 /* MyFrameLayout.m in Sources */,
 				A38546F721F0533900FD9376 /* ApiUtils.m in Sources */,
 				A3878B8323A4C38100AEF988 /* HTVerticalButton.m in Sources */,
+				A3878B9223A4D49E00AEF988 /* MyLabel.m in Sources */,
 				A36A479721FC78F2006337A1 /* MyTableLayout.m in Sources */,
 				A38546E421F0329700FD9376 /* AFShareManager.m in Sources */,
 				A32EA80B223FA917006CF809 /* ActivityHeaderView.m in Sources */,
 				A36A45CA21FC568B006337A1 /* LocalizedViewController.m in Sources */,
 				A3F5950921F7036800A1DCB5 /* LifecycleViewController.m in Sources */,
+				A3878B8F23A4D12500AEF988 /* LabelAutoSizeViewController.m in Sources */,
 				A385472421F0784800FD9376 /* ObjectCViewController.m in Sources */,
 				A3878B8B23A4C44600AEF988 /* VerticalButtonController.m in Sources */,
 				A3DB5601222661300018764F /* EmojiViewController.m in Sources */,

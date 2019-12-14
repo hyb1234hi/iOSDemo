@@ -41,7 +41,7 @@
     btn.titleLabel.numberOfLines = 0;
     //重要的是下面这部分哦！
     CGSize titleSize = [str sizeWithAttributes:@{NSFontAttributeName: [UIFont fontWithName:btn.titleLabel.font.fontName size:btn.titleLabel.font.pointSize]}];
-     
+    
     
     titleSize.height += 20;
     titleSize.width += 20;

@@ -28,6 +28,8 @@
 
 #import "VerticalButtonController.h"
 
+#import "LabelAutoSizeViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -39,7 +41,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    VerticalButtonController *viewController = [[VerticalButtonController alloc] init];
+    LabelAutoSizeViewController *viewController = [[LabelAutoSizeViewController alloc] init];
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     
