@@ -26,6 +26,8 @@
 #import "WithdrawViewController.h"
 #import "ActivityViewController.h"
 
+#import "VerticalButtonController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -37,7 +39,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    MLabelViewController *viewController = [[MLabelViewController alloc] init];
+    VerticalButtonController *viewController = [[VerticalButtonController alloc] init];
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     
