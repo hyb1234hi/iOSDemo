@@ -82,6 +82,8 @@
 		A3878B8B23A4C44600AEF988 /* VerticalButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3878B8A23A4C44600AEF988 /* VerticalButtonController.m */; };
 		A3878B8F23A4D12500AEF988 /* LabelAutoSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3878B8E23A4D12500AEF988 /* LabelAutoSizeViewController.m */; };
 		A3878B9223A4D49E00AEF988 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3878B9123A4D49E00AEF988 /* MyLabel.m */; };
+		A38C197323B48E59005575F8 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38C197223B48E59005575F8 /* FileViewController.m */; };
+		A38C197623B495A5005575F8 /* amaro.zip in Resources */ = {isa = PBXBuildFile; fileRef = A38C197523B495A4005575F8 /* amaro.zip */; };
 		A38DB28721E5D1CF00828CB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A38DB28621E5D1CF00828CB4 /* AppDelegate.m */; };
 		A38DB28F21E5D1CF00828CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38DB28E21E5D1CF00828CB4 /* Assets.xcassets */; };
 		A38DB29221E5D1CF00828CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38DB29021E5D1CF00828CB4 /* LaunchScreen.storyboard */; };
@@ -266,6 +268,9 @@
 		A3878B8E23A4D12500AEF988 /* LabelAutoSizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelAutoSizeViewController.m; sourceTree = "<group>"; };
 		A3878B9023A4D49E00AEF988 /* MyLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
 		A3878B9123A4D49E00AEF988 /* MyLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		A38C197123B48E59005575F8 /* FileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		A38C197223B48E59005575F8 /* FileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		A38C197523B495A4005575F8 /* amaro.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = amaro.zip; sourceTree = "<group>"; };
 		A38DB28221E5D1CF00828CB4 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38DB28521E5D1CF00828CB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A38DB28621E5D1CF00828CB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -731,6 +736,23 @@
 			path = "高宽自适应";
 			sourceTree = "<group>";
 		};
+		A38C197023B48E3C005575F8 /* 文件 */ = {
+			isa = PBXGroup;
+			children = (
+				A38C197123B48E59005575F8 /* FileViewController.h */,
+				A38C197223B48E59005575F8 /* FileViewController.m */,
+			);
+			path = "文件";
+			sourceTree = "<group>";
+		};
+		A38C197423B4958C005575F8 /* 压缩包 */ = {
+			isa = PBXGroup;
+			children = (
+				A38C197523B495A4005575F8 /* amaro.zip */,
+			);
+			path = "压缩包";
+			sourceTree = "<group>";
+		};
 		A38DB27921E5D1CF00828CB4 = {
 			isa = PBXGroup;
 			children = (
@@ -756,6 +778,8 @@
 		A38DB28421E5D1CF00828CB4 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A38C197423B4958C005575F8 /* 压缩包 */,
+				A38C197023B48E3C005575F8 /* 文件 */,
 				A3BA6197223CDFC10026372D /* 项目 */,
 				A36A473C21FC78E5006337A1 /* Vendor */,
 				A3EDACAB21F8391600490381 /* 入口 */,
@@ -1114,6 +1138,7 @@
 				A36A478421FC78F2006337A1 /* layoutdemo2.gif in Resources */,
 				A3FCB4E221F99AFE00F9BA0D /* AlertViewController.xib in Resources */,
 				A36A478721FC78F2006337A1 /* layoutdemo5.gif in Resources */,
+				A38C197623B495A5005575F8 /* amaro.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1229,6 +1254,7 @@
 				A3DB56E4222689710018764F /* SegmentViewController.m in Sources */,
 				A38546CC21F01B9700FD9376 /* RootViewController.m in Sources */,
 				A385470F21F0656700FD9376 /* UIButton+utils.m in Sources */,
+				A38C197323B48E59005575F8 /* FileViewController.m in Sources */,
 				A36A479521FC78F2006337A1 /* MyBaseLayout.m in Sources */,
 				A3EDACAF21F8392A00490381 /* MainViewController.m in Sources */,
 				A36A479621FC78F2006337A1 /* MyPathLayout.m in Sources */,

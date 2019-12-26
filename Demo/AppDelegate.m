@@ -30,6 +30,8 @@
 
 #import "LabelAutoSizeViewController.h"
 
+#import "FileViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -41,7 +43,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    LabelAutoSizeViewController *viewController = [[LabelAutoSizeViewController alloc] init];
+    FileViewController *viewController = [[FileViewController alloc] init];
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     
