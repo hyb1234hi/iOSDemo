@@ -18,19 +18,15 @@
 #import "SegmentViewController.h"
 #import "DropDownViewController.h"
 #import "DialogViewController.h"
-
 #import "LabelViewController.h"
 #import "MLabelViewController.h"
-
 #import "VideoViewController.h"
 #import "WithdrawViewController.h"
 #import "ActivityViewController.h"
-
 #import "VerticalButtonController.h"
-
 #import "LabelAutoSizeViewController.h"
-
 #import "FileViewController.h"
+#import "ScrollViewController.h"
 
 @interface AppDelegate ()
 
@@ -43,7 +39,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    FileViewController *viewController = [[FileViewController alloc] init];
+    ScrollViewController *viewController = [[ScrollViewController alloc] init];
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     
