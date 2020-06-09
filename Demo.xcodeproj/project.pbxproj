@@ -94,6 +94,7 @@
 		A3B218EB2231405100442DBE /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B218EA2231405100442DBE /* VideoViewController.m */; };
 		A3BA619D223CE0810026372D /* WithdrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA619C223CE0810026372D /* WithdrawViewController.m */; };
 		A3C3BD49222FB60B006FC1DD /* DialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C3BD48222FB60B006FC1DD /* DialogViewController.m */; };
+		A3C7082B248F72A100175F1E /* VerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C7082A248F72A100175F1E /* VerticalButton.m */; };
 		A3C8429B2239F01200A95719 /* 邀请码-标题.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8429A2239F01200A95719 /* 邀请码-标题.png */; };
 		A3CEB89A21E88E49003BD24E /* 个人中心-性别男图标-默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CEB89621E88E49003BD24E /* 个人中心-性别男图标-默认@2x.png */; };
 		A3CEB89B21E88E49003BD24E /* 个人中心-性别女图标-默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CEB89721E88E49003BD24E /* 个人中心-性别女图标-默认@2x.png */; };
@@ -292,6 +293,8 @@
 		A3BA619C223CE0810026372D /* WithdrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WithdrawViewController.m; sourceTree = "<group>"; };
 		A3C3BD47222FB60B006FC1DD /* DialogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialogViewController.h; sourceTree = "<group>"; };
 		A3C3BD48222FB60B006FC1DD /* DialogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialogViewController.m; sourceTree = "<group>"; };
+		A3C70829248F72A100175F1E /* VerticalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalButton.h; sourceTree = "<group>"; };
+		A3C7082A248F72A100175F1E /* VerticalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalButton.m; sourceTree = "<group>"; };
 		A3C8429A2239F01200A95719 /* 邀请码-标题.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请码-标题.png"; sourceTree = "<group>"; };
 		A3CEB89621E88E49003BD24E /* 个人中心-性别男图标-默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心-性别男图标-默认@2x.png"; sourceTree = "<group>"; };
 		A3CEB89721E88E49003BD24E /* 个人中心-性别女图标-默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心-性别女图标-默认@2x.png"; sourceTree = "<group>"; };
@@ -712,6 +715,8 @@
 				A3878B8223A4C38000AEF988 /* HTVerticalButton.m */,
 				A3878B8923A4C44600AEF988 /* VerticalButtonController.h */,
 				A3878B8A23A4C44600AEF988 /* VerticalButtonController.m */,
+				A3C70829248F72A100175F1E /* VerticalButton.h */,
+				A3C7082A248F72A100175F1E /* VerticalButton.m */,
 			);
 			path = "垂直";
 			sourceTree = "<group>";
@@ -1246,6 +1251,7 @@
 				A3DB5601222661300018764F /* EmojiViewController.m in Sources */,
 				A3EFF17B222A56070061B565 /* MXPullDownMenu.m in Sources */,
 				A36A479A21FC78F2006337A1 /* MyDimeScale.m in Sources */,
+				A3C7082B248F72A100175F1E /* VerticalButton.m in Sources */,
 				A32EA7ED223F8AEA006CF809 /* ButtonViewController.m in Sources */,
 				A36A479321FC78F2006337A1 /* MyMaker.m in Sources */,
 				A3C3BD49222FB60B006FC1DD /* DialogViewController.m in Sources */,
@@ -1431,16 +1437,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = DXK4LW8W8H;
+				DEVELOPMENT_TEAM = EP9U5BJZN9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/wangminxin/Desktop/iOSProjects/临时/iOSDemo/Demo/Demo.pch";
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zoomtv.phonelive;
+				PRODUCT_BUNDLE_IDENTIFIER = hailongFengbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "612f58d7-2954-4283-8909-d4e416297dd4";
-				PROVISIONING_PROFILE_SPECIFIER = zoomtv;
+				PROVISIONING_PROFILE_SPECIFIER = hailongFengbao;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1451,16 +1457,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = DXK4LW8W8H;
+				DEVELOPMENT_TEAM = EP9U5BJZN9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/wangminxin/Desktop/iOSProjects/临时/iOSDemo/Demo/Demo.pch";
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zoomtv.phonelive;
+				PRODUCT_BUNDLE_IDENTIFIER = hailongFengbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "612f58d7-2954-4283-8909-d4e416297dd4";
-				PROVISIONING_PROFILE_SPECIFIER = zoomtv;
+				PROVISIONING_PROFILE_SPECIFIER = hailongFengbao;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

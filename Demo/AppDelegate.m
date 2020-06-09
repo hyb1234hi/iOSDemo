@@ -39,7 +39,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    ScrollViewController *viewController = [[ScrollViewController alloc] init];
+    VerticalButtonController *viewController = [[VerticalButtonController alloc] init];
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     

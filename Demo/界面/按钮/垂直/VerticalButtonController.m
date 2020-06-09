@@ -8,6 +8,8 @@
 
 #import "VerticalButtonController.h"
 #import "HTVerticalButton.h"
+#import "VerticalButton.h"
+
 
 @implementation VerticalButtonController
 
@@ -18,11 +20,39 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
    
-  
-    [self addAutoSizeButton];
+    [self addVerticalButton];
     
 }
 
+- (void)addVerticalButton{
+    
+    NSString *str = @"这是按钮的标题这";
+    VerticalButton *btn = [VerticalButton buttonWithType:UIButtonTypeCustom];
+    UIImage *img = [UIImage imageNamed:@"直播"];
+    [btn setImage:img forState:0];
+    [btn setTitle:str forState:0];
+    [btn setTitleColor:[UIColor blackColor] forState:0];
+    btn.titleLabel.font = [UIFont systemFontOfSize:12];
+    CGFloat strW  = [self getWidthWithText:str height:50 font:12];
+    CGFloat strH = [self getHeightWithText:str width:strW font:12];
+    btn.frame = CGRectMake(100, 100, strW+10, img.size.height+strH+10);
+    btn.backgroundColor  = [UIColor redColor];
+    [self.view addSubview:btn];
+    
+}
+
+-(CGFloat)getWidthWithText:(NSString*)text height:(CGFloat)height font:(CGFloat)font{
+    CGRect rect = [text boundingRectWithSize:CGSizeMake(MAXFLOAT, height)                                        options:NSStringDrawingUsesLineFragmentOrigin                                    attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:font]}                                        context:nil];
+    return rect.size.width;
+}
+
+
+-(CGFloat)getHeightWithText:(NSString*)text width:(CGFloat)width font:(CGFloat)font{
+    CGRect rect = [text boundingRectWithSize:CGSizeMake(width, MAXFLOAT)                                        options:NSStringDrawingUsesLineFragmentOrigin                                    attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:font]}                                        context:nil];
+    return rect.size.height;
+}
+ 
+ 
 //高宽自适应
 - (void)addAutoSizeButton{
 
